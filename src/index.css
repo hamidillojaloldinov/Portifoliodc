@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #00192a;
+}
+
+.gradiend {
+  background-image: linear-gradient(to right, #cc00ff, #00b3ff);
+}
+
+.text-gradiend {
+  background-image: linear-gradient(to right, #cc00ff, #00b3ff);
+}
+
+.text-gradiend {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.progress-info::-moz-progress-bar {
+  border-radius: var(--rounded-box, 1rem /* 16px */);
+  --tw-bg-opacity: 1;
+  background-image: linear-gradient(to right, #cc00ff, #00b3ff);
+}
+
+.progress-info:indeterminate {
+  background-image: linear-gradient(to right, #cc00ff, #00b3ff);
+}
+
+.progress-info::-webkit-progress-value {
+  --tw-bg-opacity: 1;
+  background-image: linear-gradient(to right, #cc00ff, #00b3ff);
+}
+
+.gradiend:hover {
+  background-image: linear-gradient(to right, #00b3ff, #cc00ff);
+}
